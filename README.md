@@ -117,6 +117,23 @@ As mentioned in this document, this query has ```prod_id``` and the word ```year
 
 <img width="1868" alt="Screen Shot 2023-08-28 at 5 26 22 PM" src="https://github.com/niyanthgri/LLM-MySQL/assets/140157007/755ca233-87bf-4beb-83a2-78d9dc1ac758">
 
+
+Some examples of queries that are working:
+> get the memory slots from product specification of the least sold product in year 2021. Limit to 50 words.
+> Tell me transaction_id 8Y3CLHVW0Z details. Limit to 50 words.
+> what is the unit price of prod_id z0888728? Limit to 50 words.
+> Find out the most sold product in year 2022. Limit to 50 words.
+
+We are mentioning, ```Limit to 50 words.``` as the system gives an error in regards with exceeding tokens, if this is not provided.
+
+## Requirements.txt
+
+The code to download the packages from the txt file:
+> pip install -r requirements1.txt
+or
+> pip3 install -r requirements1.txt
+
+
 Similarly, the user may provide basic queries and get the LLM to answer the basic queries.
 I hope this has been helpful to you.
 
