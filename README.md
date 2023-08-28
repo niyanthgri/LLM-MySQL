@@ -1,25 +1,29 @@
 # LLM-MySQL
 
-The purpose of this program is to use LLM and answer basic questions based on information provided via pdf documents and a MySQL databse.
+This program demonstrates how LLm can be used to query SQL table for insights and read the documents for additional details. In this example, we are using ```sales_data``` table to get insights and the documents present in ```prod_spec``` for additional information.
 
 ### Prerequisites:
 1. Have pdf files ready
 2. Have a MySQL account ready
 
-### Who will be using this: 
-Business analysts, analysts who don't know how to understand or code, can use this to analyse given data.
+### Who will be using this (Use Case): 
+Business analysts who aren't familiar with SQL queries can use this to analyse given data and also get reason for particulars beyond the sales_data.
+For example: They can get the least sold product by quarter or year and they can get further details from the documents which may provide a reason as to why the product didn't sell well.
+
+Query: ```Get the memory slots from product specification of the least sold product in year 2021.```
+
 
 ### Code
-The folder has 4 files and 1 folder.
+The folder has 4 files and 1 data folder.
 
 _*Files*_
-1. generate.py - code to generate random data of records
-2. sales_data_100k.py - a csv file with a number of randomly generated records ~ 45k records
+1. generate.py - code to generate random data of sales records
+2. sales_data_100k.py - a csv file with a number of randomly generated sales records ~ 100k records
 3. llm_mysql.py - The LLM code.
 4. requirements.txt - The packages that need to be installed
 
 _*Folder*_
-1. prod_spec - Files containing the product specs for a few electronic items.
+1. prod_spec - Files containing the product specicifations for a few electronic items.
 
 ## generate_data.py
 This program creates random data that you can insert into your MySQL table to then do further analysis on
@@ -96,13 +100,8 @@ Then click on ```Next``` twice and the table will be imported after you click on
 
 ## llm_mysql_sales.py
 
-### Key things to note, to make the LLM work:
-- While talking about a year in the prompt, use the word ```year```
-- While talking about product specification in the prompt, use the word ```prod_id```
-This program uses LLM to read the data from the pdf files and the MySQL databse to answer basic questions
-
 The code to run the progream:
-> python llm_mysql_sales.py
+> python llm_mysql.py
 
 When you first run the program, this is what you'll be asked:
 
@@ -139,9 +138,9 @@ We are mentioning, ```Limit to 50 words.``` as the system gives an error in rega
 ## Requirements.txt
 
 The code to download the packages from the txt file:
-> pip install -r requirements1.txt
+> pip install -r requirements.txt
 or
-> pip3 install -r requirements1.txt
+> pip3 install -r requirements.txt
 
 
 Similarly, the user may provide basic queries and get the LLM to answer the basic queries.
