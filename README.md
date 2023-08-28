@@ -12,7 +12,7 @@ Business analysts, analysts who don't know how to understand or code, can use th
 ### Code
 The folder has 5 files.
 1. generate.py - code to generate random data of records
-2. sales_data.py - a csv file with a number of randomly generated records
+2. sales_data_100k.py - a csv file with a number of randomly generated records ~ 45k records
 3. llm_mysql.py - The LLM code.
 4. requirements.txt - The packages that need to be installed
 5. pdf_folder - A folder containing the product specs for a few electronic items.
