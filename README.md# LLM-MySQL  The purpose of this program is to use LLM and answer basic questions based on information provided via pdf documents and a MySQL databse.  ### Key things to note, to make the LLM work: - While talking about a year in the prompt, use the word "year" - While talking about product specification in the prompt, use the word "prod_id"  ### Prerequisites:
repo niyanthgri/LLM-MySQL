@@ -1,0 +1,23 @@
+# LLM-MySQL
+
+# LLM-MySQL
+
+The purpose of this program is to use LLM and answer basic questions based on information provided via pdf documents and a MySQL databse.
+
+### Key things to note, to make the LLM work:
+- While talking about a year in the prompt, use the word "year"
+- While talking about product specification in the prompt, use the word "prod_id"
+
+### Prerequisites:
+1. Have pdf files and a MySQL account ready
+
+### Who will be using this: 
+Business analysts, analysts who don't know how to understand or code, can use this to analyse given data.
+
+### Code
+The folder has 2 codes.
+1. generate.py
+2. sales_data.py
+
+
+
