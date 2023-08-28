@@ -2,10 +2,6 @@
 
 The purpose of this program is to use LLM and answer basic questions based on information provided via pdf documents and a MySQL databse.
 
-### Key things to note, to make the LLM work:
-- While talking about a year in the prompt, use the word "year"
-- While talking about product specification in the prompt, use the word "prod_id"
-
 ### Prerequisites:
 1. Have pdf files ready
 2. Have a MySQL account ready
@@ -15,8 +11,8 @@ Business analysts, analysts who don't know how to understand or code, can use th
 
 ### Code
 The folder has 2 codes.
-1. generate.py
-2. sales_data.py
+1. generate.py - generate random data of records
+2. sales_data.py - a csv file with a number of randomly generated 
 
 
 ## generate_data.py
@@ -51,9 +47,21 @@ This is what you'll see after appending or overwriting to the CSV file:
 
 ![Screenshot 2023-08-28 at 12 55 51 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/568c630f-2778-48c5-ac56-b8ff505fab47)
 
+## llm_mysql_sales.py
 
+### Key things to note, to make the LLM work:
+- While talking about a year in the prompt, use the word ```year```
+- While talking about product specification in the prompt, use the word ```prod_id```
+This program uses LLM to read the data from the pdf files and the MySQL databse to answer basic questions
 
+The code to run the progream:
+> python llm_mysql_sales.py
 
+When you first run the program, this is what you'll be asked:
 
+![Screenshot 2023-08-28 at 2 53 20 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/9592e296-ab43-4eba-88ba-78c48d146abc)
 
+What you see in this screenshot, is the MySQL version, the table that's being used, the SQL query to create the table, a test response to just check whether the engine is running smoothly or not, and the product IDs.
+You will now be asked to enter your query. The default query is: ```Tell me about the Maximum Memory of the prod_id that sold most in the year 2021```
+As mentioned in this document, this auery has ```prod_id``` and the word ```year``` in it
 
