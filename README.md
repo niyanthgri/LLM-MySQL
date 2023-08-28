@@ -59,9 +59,13 @@ The code to run the progream:
 
 When you first run the program, this is what you'll be asked:
 
-![Screenshot 2023-08-28 at 2 53 20 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/9592e296-ab43-4eba-88ba-78c48d146abc)
+![Screenshot 2023-08-28 at 3 07 57 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/374e82a3-36a7-4c57-bd3c-3f4c45a0a9c7)
+
 
 What you see in this screenshot, is the MySQL version, the table that's being used, the SQL query to create the table, a test response to just check whether the engine is running smoothly or not, and the product IDs.
 You will now be asked to enter your query. The default query is: ```Tell me about the Maximum Memory of the prod_id that sold most in the year 2021```
-As mentioned in this document, this auery has ```prod_id``` and the word ```year``` in it
+
+As mentioned in this document, this query has ```prod_id``` and the word ```year``` in it.
+
+After entering the default query, this is what the LLM answers: 
 
