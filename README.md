@@ -76,12 +76,14 @@ Make sure you're in the right schema and right database when running that query
 
 Right click on the name of the table, and click on: ```Table Data Import Wizard```
 
+![Screenshot 2023-08-28 at 5 05 21 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/f4d80c35-8e5c-428c-8df9-46bf1555fca4)
+
 - You'll get a pop up in which you browse to the location of your CSV file to be uploaded, click on ```Next``` once and then check if the schema and table name are right in the next pop up.
 If they are, click on ```next``` again.
 
 - In the Configure Import Settings, make sure the encoding is ```utf-8```
 
-![Screenshot 2023-08-28 at 5 05 21 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/f4d80c35-8e5c-428c-8df9-46bf1555fca4)
+![Screenshot 2023-08-28 at 5 11 22 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/98434353-f577-4f39-a1f7-f976bef5bb8e)
 
 Then click on ```Next``` twice and the table will be imported.
 
