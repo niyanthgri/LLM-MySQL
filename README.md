@@ -15,7 +15,7 @@ The folder has 5 files.
 2. sales_data_100k.py - a csv file with a number of randomly generated records ~ 45k records
 3. llm_mysql.py - The LLM code.
 4. requirements.txt - The packages that need to be installed
-5. pdf_folder - A folder containing the product specs for a few electronic items.
+5. 8 pdf folders - Files containing the product specs for a few electronic items.
 
 ## generate_data.py
 This program creates random data that you can insert into your MySQL table to then do further analysis on
