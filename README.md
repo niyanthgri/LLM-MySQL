@@ -10,10 +10,12 @@ The purpose of this program is to use LLM and answer basic questions based on in
 Business analysts, analysts who don't know how to understand or code, can use this to analyse given data.
 
 ### Code
-The folder has 2 codes.
-1. generate.py - generate random data of records
-2. sales_data.py - a csv file with a number of randomly generated 
-
+The folder has 5 files.
+1. generate.py - code to generate random data of records
+2. sales_data.py - a csv file with a number of randomly generated records
+3. llm_mysql.py - The LLM code.
+4. requirements.txt - The packages that need to be installed
+5. pdf_folder - A folder containing the product specs for a few electronic items.
 
 ## generate_data.py
 This program creates random data that you can insert into your MySQL table to then do further analysis on
@@ -119,10 +121,14 @@ As mentioned in this document, this query has ```prod_id``` and the word ```year
 
 
 Some examples of queries that are working:
-> get the memory slots from product specification of the least sold product in year 2021. Limit to 50 words.
-> Tell me transaction_id 8Y3CLHVW0Z details. Limit to 50 words.
-> what is the unit price of prod_id z0888728? Limit to 50 words.
-> Find out the most sold product in year 2022. Limit to 50 words.
+
+```1. get the memory slots from product specification of the least sold product in year 2021. Limit to 50 words.```
+
+```2. Tell me transaction_id 8Y3CLHVW0Z details. Limit to 50 words.```
+
+```3. what is the unit price of prod_id z0888728? Limit to 50 words.```
+
+```4. Find out the most sold product in year 2022. Limit to 50 words.```
 
 We are mentioning, ```Limit to 50 words.``` as the system gives an error in regards with exceeding tokens, if this is not provided.
 
