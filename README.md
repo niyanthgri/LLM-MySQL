@@ -49,7 +49,7 @@ This is what you'll see after appending or overwriting to the CSV file:
 
 ## Uploading file to MySQL
 
-Login to your MySQL
+Login to your MySQL Workbench
 - Create a table with the following SQL query:
 > create TABLE <NameOfDatabase>.<TableName>(\
             TRANSACTION_ID VARCHAR(50),\
