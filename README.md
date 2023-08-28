@@ -85,7 +85,7 @@ If they are, click on ```next``` again.
 
 ![Screenshot 2023-08-28 at 5 11 22 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/98434353-f577-4f39-a1f7-f976bef5bb8e)
 
-Then click on ```Next``` twice and the table will be imported.
+Then click on ```Next``` twice and the table will be imported after you click on ```Finish```
 
 
 ## llm_mysql_sales.py
