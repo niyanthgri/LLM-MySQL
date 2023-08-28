@@ -35,12 +35,12 @@ It now asks you which file you'd like to append these records to. The default fi
 
 ![Screenshot 2023-08-28 at 12 30 24 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/d1b89e0d-8d5a-41aa-89ef-8feef2145599)
 
-# File Exists
+### File Exists
 If the file deosn't exist, it'll create a file with the name you mentioned and this is what the command line would look like:
 
 ![Screenshot 2023-08-28 at 12 57 27 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/ad97a539-a0be-4b8d-8252-5aa5d269037f)
 
-# File doesn't exist
+### File doesn't exist
 If the file exists, then yoou'll be asked if you want to append or overwrite the data in the CSV file. If you're appending, please make sure that the number of columns and the name of the columns match in the CSV file, or else please overwrite or create a new file.
 
 This is what you'll see if the file exists:
