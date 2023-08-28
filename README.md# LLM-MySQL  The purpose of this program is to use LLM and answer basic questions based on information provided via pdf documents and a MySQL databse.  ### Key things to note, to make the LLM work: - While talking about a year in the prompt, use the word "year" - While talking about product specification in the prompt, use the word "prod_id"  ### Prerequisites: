@@ -9,7 +9,8 @@ The purpose of this program is to use LLM and answer basic questions based on in
 - While talking about product specification in the prompt, use the word "prod_id"
 
 ### Prerequisites:
-1. Have pdf files and a MySQL account ready
+1. Have pdf files ready
+2. Have a MySQL account ready
 
 ### Who will be using this: 
 Business analysts, analysts who don't know how to understand or code, can use this to analyse given data.
@@ -18,6 +19,16 @@ Business analysts, analysts who don't know how to understand or code, can use th
 The folder has 2 codes.
 1. generate.py
 2. sales_data.py
+
+
+## generate_data.py
+This program creates random data that you can insert into your MySQL table to then do further analysis on
+
+The code to run the program:
+> python generate_data.py
+
+When you first run the program, this is what you'll be asked:
+
 
 
 
