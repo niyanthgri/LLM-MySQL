@@ -108,5 +108,18 @@ You will now be asked to enter your query. The default query is: ```Tell me abou
 
 As mentioned in this document, this query has ```prod_id``` and the word ```year``` in it.
 
-After entering the default query, this is what the LLM answers: 
+1. After entering the query: ```find out least sold product in year 2021 and get the memory slots from the product specification. Limit to 50 words```, this is what the LLM answers: 
+
+<img width="1912" alt="Screen Shot 2023-08-28 at 5 27 22 PM" src="https://github.com/niyanthgri/LLM-MySQL/assets/140157007/447e7a38-5116-4e52-999c-49c04349ce87">
+
+
+2. After entering the query: ```What is the unit price of prod_id c0888728? Limit to 50 words```, this is what the LLM answers:
+
+<img width="1868" alt="Screen Shot 2023-08-28 at 5 26 22 PM" src="https://github.com/niyanthgri/LLM-MySQL/assets/140157007/755ca233-87bf-4beb-83a2-78d9dc1ac758">
+
+Similarly, the user may provide basic queries and get the LLM to answer the basic queries.
+I hope this has been helpful to you.
+
+Thank you.
+
 
