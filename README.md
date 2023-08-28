@@ -10,12 +10,16 @@ The purpose of this program is to use LLM and answer basic questions based on in
 Business analysts, analysts who don't know how to understand or code, can use this to analyse given data.
 
 ### Code
-The folder has 5 files.
+The folder has 4 files and 1 folder.
+
+~Files~
 1. generate.py - code to generate random data of records
 2. sales_data_100k.py - a csv file with a number of randomly generated records ~ 45k records
 3. llm_mysql.py - The LLM code.
 4. requirements.txt - The packages that need to be installed
-5. 8 pdf folders - Files containing the product specs for a few electronic items.
+
+~Folder~
+1. prod_spec - Files containing the product specs for a few electronic items.
 
 ## generate_data.py
 This program creates random data that you can insert into your MySQL table to then do further analysis on
