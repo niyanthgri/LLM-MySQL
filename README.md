@@ -28,6 +28,11 @@ The code to run the program:
 > python generate_data.py
 
 When you first run the program, this is what you'll be asked:
+![Screenshot 2023-08-28 at 12 17 30 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/0e0493bc-21e2-465a-a76d-b2549144159b)
+
+Here, you provide the number of records that you want generated. Let's say we want 100 records generated. 
+After mentioning the number of records you want added, the program mentions the time taken to create and append the records to the CSV file.
+It now asks you which file you'd like to append these records to. The default file it appends to is called ```sales_data.csv```
 
 
 
