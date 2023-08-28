@@ -47,6 +47,33 @@ This is what you'll see after appending or overwriting to the CSV file:
 
 ![Screenshot 2023-08-28 at 12 55 51 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/568c630f-2778-48c5-ac56-b8ff505fab47)
 
+## Uploading file to MySQL
+
+Login to your MySQL
+- Create a table with the following SQL query:
+> create TABLE <NameOfDatabase>.<TableName>(\
+            TRANSACTION_ID VARCHAR(50),\
+            SALE_DATE VARCHAR(50),\
+            PRODUCT_ID VARCHAR(50),\
+            TYPE_OF_PRODUCT VARCHAR(50),\
+            ITEMS_SOLD NUMBER(38,0),\
+            UNIT_PRICE FLOAT,\
+            TOTAL_AMOUNT FLOAT,\
+            CUSTOMER_FIRST_NAME VARCHAR(50),\
+            CUSTOMER_LAST_NAME VARCHAR(50),\
+            CUSTOMER_EMAIL VARCHAR(50),\
+            CUSTOMER_ADDRESS VARCHAR(200));
+
+- Check if the table exists by using this query:
+> select count(0) from <TableName>;
+
+Make sure you're in the right schema and right database when running that query
+
+- In the top left corner, locate the table in your schema, database and under tables:
+![Screenshot 2023-08-28 at 5 03 54 PM](https://github.com/niyanthgri/LLM-MySQL/assets/140157007/8cb547c0-59d1-4a22-8701-309eafde2526)
+
+Right click on the name of the table, and go to   
+
 ## llm_mysql_sales.py
 
 ### Key things to note, to make the LLM work:
