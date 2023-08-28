@@ -1,5 +1,0 @@
-openai
-sqlalchemy
-llama_index
-
-# Include other packages as required
