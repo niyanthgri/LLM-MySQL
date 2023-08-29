@@ -22,6 +22,7 @@ _*Files*_
 2. sales_data_100k.py - a csv file with a number of randomly generated sales records ~ 100k records
 3. llm_mysql.py - The LLM code.
 4. requirements.txt - The packages that need to be installed
+5. user_details - Contains all your MySQL details which are to be filled by you
 
 _*Folder*_
 1. prod_spec - Files containing the product specicifations for a few electronic items.
