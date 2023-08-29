@@ -1,0 +1,12 @@
+MYSQL_HOST=''
+MYSQL_TABLE=""
+
+# User details for SQL
+SQL_TYPE=''
+SQL_USER_NAME=''
+SQL_PASSWORD=''
+SQL_HOST_URL=''
+SQL_PORT=''
+SQL_DB=''
+
+PROD_SPEC_FOLDER = './prod_spec'
