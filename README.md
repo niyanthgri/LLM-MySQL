@@ -5,7 +5,7 @@ This program demonstrates how LLm can be used to query SQL table for insights an
 ### Prerequisites:
 1. Have pdf files ready
 2. Have a MySQL account ready
-3. Fill in your details, user-id, password and more in the ```user-details``` file
+3. Fill in your details, user-id, password and more in the ```user-details.py``` file
 
 ### Who will be using this (Use Case): 
 Business analysts who aren't familiar with SQL queries can use this to analyse given data and also get reason for particulars beyond the sales_data.
